@@ -1,0 +1,16 @@
+{
+  "name": "pingpp/pub_module",
+  "description": "test pub_module",
+  "authors": [
+    {
+      "name": "lurrpis",
+      "email": "lurrpis@pingxx.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "pingpp\\pub_module\\": "src/",
+      "pingpp\\pub_module\\test\\": "test/"
+    }
+  }
+}
