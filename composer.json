@@ -1,12 +1,16 @@
 {
   "name": "pingpp/pub_module",
   "description": "test pub_module",
+  "version": "1.0.0",
   "authors": [
     {
       "name": "lurrpis",
       "email": "lurrpis@pingxx.com"
     }
   ],
+  "require": {
+    "php": ">=5.6.0"
+  },
   "autoload": {
     "psr-4": {
       "pingpp\\pub_module\\": "src/",
